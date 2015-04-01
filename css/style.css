@@ -99,11 +99,11 @@ tr:last-child {
 	overflow: auto;
 	/*border-bottom: 1px solid #bbb8bf;*/
 }
-.main p {
+p.description {
 	width: 67.5%;
 	float: left;
 	font-size: 1.4em;
-
+	margin-bottom: 1em;
 }
 .main figure {
 	float: right;
