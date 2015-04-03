@@ -46,7 +46,7 @@ header {
 	border-bottom: 1px solid rgba(255,80,10, 0.9); /*changes color of border under project name*/
 }
 h1 {
-	font:  'Helvetica Neue', 'Source Sans Pro', arial, sans-serif;
+	font-family:  'Helvetica Neue', 'Source Sans Pro', arial, sans-serif;
 	color: rgba(255,80,10, 0.9);
 	font-weight: 100;
 	margin-top: 0;
@@ -121,12 +121,13 @@ figure img {
 }
 
 /*-------------------------------------------  links -------------------------------------------------------*/
-a {
+a:link, a:active {
 	text-decoration: none;
 	font-size: 1.3em;
-	color: #475a80;  /*changes color of the links*/
+	color: rgba(90, 170, 167, .86);  /*changes color of links and active links*/
 }
 a:hover {
+	color: rgba(72, 193, 197, .86);
 	text-decoration: underline;
 }
 /*-------------------------------------------  footer-------------------------------------------------------*/
